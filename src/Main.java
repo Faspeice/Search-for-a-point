@@ -2,8 +2,7 @@ import java.util.Random;
 public class Main {
     public static double calculate_distance(int[] first_point, int[] second_point)
     {
-        double distance;
-        distance = Math.sqrt(Math.pow(first_point[0] - second_point[0], 2) + Math.pow(first_point[1] - second_point[1], 2));
+        double distance = Math.sqrt(Math.pow(first_point[0] - second_point[0], 2) + Math.pow(first_point[1] - second_point[1], 2));
         return distance;
     };
     public static void main(String[] args) {
